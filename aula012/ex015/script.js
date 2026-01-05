@@ -48,6 +48,7 @@ function verificar() {
         }
     } 
     res.style.textAlign = 'center'
+    ima.style.textAlign = 'center'
     res.innerHTML = (`Identificamos ${pro} ${genero} de ${idade} anos`)
-    res.appendChild(img)
+    ima.appendChild(img)
 }
