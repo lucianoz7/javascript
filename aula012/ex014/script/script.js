@@ -2,9 +2,9 @@ function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('imagem')
     var tit = document.getElementById('titulo')
-    // var date = new Date()
-    var hora = 8
-    // var hora = date.getHours()
+    var date = new Date()
+    // var hora = 8
+    var hora = date.getHours()
     msg.innerHTML = `Agora são ${hora} horas`
     if (hora > 0 && hora <= 12) {
         img.src = 'media/pexels-gareth-davies-230510-910411.jpg'
